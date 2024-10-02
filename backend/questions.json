@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What happens when a browser loads a webpage with an HTML page that includes images?",
+        "options": [
+            "A) The images are loaded and displayed instantly",
+            "B) The webpage is fully loaded before the images are displayed",
+            "C) The browser crashes due to insufficient memory",
+            "D) The browser takes a long time to load the entire webpage"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "What style applies to the webpage when it has fully loaded the style sheet?",
+        "options": [
+            "A) Color changes to blue",
+            "B) The 'Hello world' string is displayed in red",
+            "C) Images are displayed in black and white",
+            "D) Background images change"
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "question": "What happens when the connection between a browser and a server is poor?",
+        "options": [
+            "A) The webpage loads instantly without any issues",
+            "B) The webpage takes longer to load due to slow internet",
+            "C) The browser crashes due to network errors",
+            "D) The browser displays the previous sequence of events"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "What is the main function of Mozilla's Gecko rendering engine?",
+        "options": [
+            "A) To load webpages quickly",
+            "B) To handle network errors efficiently",
+            "C) To manage browser memory effectively",
+            "D) To render web pages correctly"
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "question": "What happens when a browser loads a webpage that includes an inline style similar to 'div {color: red;}'?",
+        "options": [
+            "A) The webpage displays the 'Hello world' string in blue",
+            "B) The webpage takes longer to load due to additional styles",
+            "C) The browser crashes due to insufficient memory",
+            "D) The 'Hello world' string is displayed in red"
+        ],
+        "correct_answer": "D"
+    }
+]
