@@ -128,6 +128,12 @@ We welcome contributions to make this project better! If you’d like to contrib
 <!---->
 <!-- --- -->
 
+-----
+
+## ⚠️ NOTE
+
+If you are hosting the backend and frontend separately or on different domains, ensure the frontend API requests point to the correct backend URL (for example, replace http://localhost:8000 with your hosted backend URL). This is important to ensure proper communication between the two components.
+
 ## 🌟 Support the Project
 
 If you find this project useful, give it a ⭐️ and follow for more cool open-source projects!
