@@ -15,7 +15,7 @@ class QuizCrafter:
         self.user = USER_MSG
         self.embeddings = OllamaEmbeddings(
             model="nomic-embed-text",
-            base_url="http://192.168.0.105:11434",
+            base_url=base_url,
         )
         self.llm = ChatOllama(
             model="llama3.2:3b",
@@ -23,7 +23,7 @@ class QuizCrafter:
             top_k=80,
             top_p=0.9,
             seed=0,
-            base_url="http://192.168.0.105:11434",
+            base_url=base_url,
         )
 
     def load_docs(self, file_path):

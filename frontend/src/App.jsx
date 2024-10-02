@@ -21,7 +21,7 @@ const App = () => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://192.168.0.109:8000/upload/', formData, {
+      const response = await axios.post('http://192.168.0.105:8000/upload/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -41,7 +41,7 @@ const App = () => {
     formData.append('topic', topic);
 
     try {
-      const response = await axios.post('http://192.168.0.109:8000/generate-questions/', formData, {
+      const response = await axios.post('http://192.168.0.105:8000/generate-questions/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
