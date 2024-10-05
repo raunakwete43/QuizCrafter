@@ -56,7 +56,8 @@ Welcome to the **AI Quiz Generator** project, where learning meets innovation! T
 
 3. Start the FastAPI server:
    ```bash
-   uvicorn backend.main:app --reload
+   cd backend
+   uvicorn main:app --reload
    ```
 
 4. The backend will be running at `http://localhost:8000`.
